@@ -80,6 +80,17 @@ footer .fa-heart{
     color:rgb(206, 37, 37);
 }
 
+@media (max-width:600px)
+{
+
+    form{
+        margin: 0;
+        border : 0px;
+        width : 50vw;
+        height : 50vh;
+        padding:0;  
+        margin-left:-3%;
+    }
     table{
         margin:0;
         padding:0;
@@ -133,3 +144,4 @@ footer .fa-heart{
     }
 
 }
+   

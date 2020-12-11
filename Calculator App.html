@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Calculator App
+        </title>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="assets/stylesheets/calculator.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
+        <script src="assets/js/calculator.jsx" type="text/javascript"></script>
+    </head>
+ <body>
+
+     <div>
+    <form id="calculator">
+        <table>
+            <tr>
+                <th colspan="4" id="#"></th>
+            </tr>
+            <tr rowspan="3">
+                <td colspan="4">
+                    <input type="text" name="output" id="output" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="display(value)"></td>
+                <td><input type="button" value="8" onclick="display(value)"></td>
+                <td><input type="button" value="9" onclick="display(value)"></td>
+                <td><input type="button" value="+" onclick="display(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="display(value)"></td>
+                <td><input type="button" value="5" onclick="display(value)"></td>
+                <td><input type="button" value="6" onclick="display(value)"></td>
+                <td><input type="button" value="-" onclick="display(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="display(value)"></td>
+                <td><input type="button" value="2" onclick="display(value)"></td>
+                <td><input type="button" value="3" onclick="display(value)"></td>
+                <td><input type="button" value="*" onclick="display(value)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="erase()"></td>
+                <td><input type="button" value="0" onclick="display(value)"></td>
+                <td><input type="button" value="=" onclick="solve()"></td>
+                <td><input type="button" value="/" onclick="display(value)"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<footer>Made with <i class="fas fa-heart"></i> by Jayashree Ghosh</footer>
+</body>
+</html>
